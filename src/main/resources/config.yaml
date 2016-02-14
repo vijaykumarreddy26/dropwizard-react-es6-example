@@ -1,0 +1,12 @@
+server:
+  type: default
+  applicationContextPath: /
+  applicationConnectors:
+    - port: 18000
+      type: http
+  allowedMethods:
+        - GET
+
+assets:
+  overrides:
+    /public: public/
